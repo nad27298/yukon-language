@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FavoriteCVC" customModule="YukonLanguage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="173"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="173"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What colour - color (am.) are the tyres - tires (am.)? Black" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EL-As-W6X">
+                        <rect key="frame" x="0.0" y="5" width="344" height="38"/>
+                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Available Updates" translatesAutoresizingMaskIntoConstraints="NO" id="S4h-ye-ZoG">
+                        <rect key="frame" x="159.5" y="51" width="25" height="30.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中心街 - 中心街（am。）への行き方を教えてください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccY-OH-DUx">
+                        <rect key="frame" x="0.0" y="89.5" width="344" height="38"/>
+                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="14"/>
+                        <color key="textColor" red="0.58431372550000005" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line 1" translatesAutoresizingMaskIntoConstraints="NO" id="d5k-ti-cq4">
+                        <rect key="frame" x="12" y="135.5" width="320" height="6"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="english_logo" translatesAutoresizingMaskIntoConstraints="NO" id="46a-bd-uEK">
+                        <rect key="frame" x="12" y="140.5" width="27.5" height="29.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="46a-bd-uEK" secondAttribute="height" multiplier="27:29" id="UIN-iC-AnB"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Available Updates" translatesAutoresizingMaskIntoConstraints="NO" id="19h-nr-bkQ">
+                        <rect key="frame" x="46.5" y="140" width="16" height="30.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="japan_logo" translatesAutoresizingMaskIntoConstraints="NO" id="f4c-hG-jQH">
+                        <rect key="frame" x="69.5" y="140.5" width="27.5" height="29.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="f4c-hG-jQH" secondAttribute="height" multiplier="27:29" id="yDz-gq-4pC"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector Red" translatesAutoresizingMaskIntoConstraints="NO" id="0Zh-H5-U7f">
+                        <rect key="frame" x="301.5" y="140.5" width="27.5" height="29.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Connect" translatesAutoresizingMaskIntoConstraints="NO" id="Gom-fd-fL7">
+                        <rect key="frame" x="251" y="137" width="34.5" height="36.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Gom-fd-fL7" secondAttribute="height" multiplier="17:18" id="BbW-DW-rGP"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copy" translatesAutoresizingMaskIntoConstraints="NO" id="tRu-Tz-dfO">
+                        <rect key="frame" x="200.5" y="137" width="34.5" height="36.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="tRu-Tz-dfO" secondAttribute="height" multiplier="17:18" id="gv9-AJ-43P"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tRu-Tz-dfO" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.1" id="07y-va-PLE"/>
+                <constraint firstItem="tRu-Tz-dfO" firstAttribute="centerY" secondItem="0Zh-H5-U7f" secondAttribute="centerY" id="312-qI-m4X"/>
+                <constraint firstItem="4EL-As-W6X" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.22" id="3g2-bR-Qpx"/>
+                <constraint firstAttribute="trailing" secondItem="0Zh-H5-U7f" secondAttribute="trailing" constant="15" id="44M-9b-vvv"/>
+                <constraint firstItem="4EL-As-W6X" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="5qR-gF-eVX"/>
+                <constraint firstItem="19h-nr-bkQ" firstAttribute="centerY" secondItem="46a-bd-uEK" secondAttribute="centerY" id="601-PT-pQW"/>
+                <constraint firstItem="S4h-ye-ZoG" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.0726744" id="7m2-31-KF2"/>
+                <constraint firstItem="d5k-ti-cq4" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.930233" id="B7B-np-FkA"/>
+                <constraint firstItem="19h-nr-bkQ" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.0465116" id="Bbd-Rs-4mu"/>
+                <constraint firstAttribute="bottom" secondItem="46a-bd-uEK" secondAttribute="bottom" constant="3" id="GA9-q7-pHo"/>
+                <constraint firstItem="Gom-fd-fL7" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.1" id="GNH-92-r7b"/>
+                <constraint firstItem="f4c-hG-jQH" firstAttribute="leading" secondItem="19h-nr-bkQ" secondAttribute="trailing" constant="7" id="Gap-6g-d0S"/>
+                <constraint firstItem="ccY-OH-DUx" firstAttribute="top" secondItem="S4h-ye-ZoG" secondAttribute="bottom" constant="8" id="Lx7-fp-V0m"/>
+                <constraint firstItem="4EL-As-W6X" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="O6S-CM-LpS"/>
+                <constraint firstItem="S4h-ye-ZoG" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="UV3-PQ-GtN"/>
+                <constraint firstItem="S4h-ye-ZoG" firstAttribute="top" secondItem="4EL-As-W6X" secondAttribute="bottom" constant="8" id="VSA-B4-Wqm"/>
+                <constraint firstItem="4EL-As-W6X" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="Wgf-T1-i1D"/>
+                <constraint firstItem="S4h-ye-ZoG" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.174825" id="aju-Xs-BLB"/>
+                <constraint firstItem="46a-bd-uEK" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.08" id="aoT-9W-2GN"/>
+                <constraint firstAttribute="bottom" secondItem="0Zh-H5-U7f" secondAttribute="bottom" constant="3" id="bPu-mr-Giz"/>
+                <constraint firstItem="19h-nr-bkQ" firstAttribute="leading" secondItem="46a-bd-uEK" secondAttribute="trailing" constant="7" id="bzL-eP-Ccb"/>
+                <constraint firstItem="0Zh-H5-U7f" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.17" id="chg-iL-5Nw"/>
+                <constraint firstItem="0Zh-H5-U7f" firstAttribute="leading" secondItem="Gom-fd-fL7" secondAttribute="trailing" constant="16" id="dh2-rf-oVJ"/>
+                <constraint firstItem="0Zh-H5-U7f" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.08" id="hGW-rx-d7b"/>
+                <constraint firstItem="Gom-fd-fL7" firstAttribute="centerY" secondItem="0Zh-H5-U7f" secondAttribute="centerY" id="k0I-fP-izm"/>
+                <constraint firstItem="19h-nr-bkQ" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.174825" id="kMe-0u-cUS"/>
+                <constraint firstItem="ccY-OH-DUx" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="knQ-jn-pNN"/>
+                <constraint firstItem="d5k-ti-cq4" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.034965" id="qEC-O9-ZfN"/>
+                <constraint firstItem="f4c-hG-jQH" firstAttribute="centerY" secondItem="46a-bd-uEK" secondAttribute="centerY" id="r8W-Sl-ChJ"/>
+                <constraint firstItem="ccY-OH-DUx" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.22" id="rXq-Eh-j2B"/>
+                <constraint firstItem="46a-bd-uEK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="rY9-wj-5jw"/>
+                <constraint firstItem="Gom-fd-fL7" firstAttribute="leading" secondItem="tRu-Tz-dfO" secondAttribute="trailing" constant="16" id="ray-bK-fNB"/>
+                <constraint firstItem="ccY-OH-DUx" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="sCQ-cW-lHj"/>
+                <constraint firstItem="d5k-ti-cq4" firstAttribute="top" secondItem="ccY-OH-DUx" secondAttribute="bottom" constant="8" id="tKa-ig-Ptj"/>
+                <constraint firstItem="d5k-ti-cq4" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="viT-Ce-yYM"/>
+                <constraint firstItem="f4c-hG-jQH" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.08" id="xYI-je-6kI"/>
+            </constraints>
+            <connections>
+                <outlet property="botFav" destination="bPu-mr-Giz" id="UOj-JT-Gbw"/>
+                <outlet property="botFavC" destination="GA9-q7-pHo" id="cUx-ON-Gez"/>
+                <outlet property="imgCopy" destination="tRu-Tz-dfO" id="B2R-Km-fYU"/>
+                <outlet property="imgFavorite" destination="0Zh-H5-U7f" id="XLZ-Rb-IHn"/>
+                <outlet property="imgLanguegaA" destination="46a-bd-uEK" id="b1R-94-dFD"/>
+                <outlet property="imgLanguegaB" destination="f4c-hG-jQH" id="264-jn-cuH"/>
+                <outlet property="imgShare" destination="Gom-fd-fL7" id="xm0-a8-qKV"/>
+                <outlet property="lblNote" destination="ccY-OH-DUx" id="CWK-Wb-Fjh"/>
+                <outlet property="lblTitle" destination="4EL-As-W6X" id="oNF-aE-GAu"/>
+                <outlet property="leadCon" destination="ray-bK-fNB" id="5aC-sG-RDd"/>
+                <outlet property="leadFavC2" destination="dh2-rf-oVJ" id="VW9-gh-MSa"/>
+                <outlet property="leadLaAC" destination="rY9-wj-5jw" id="nx0-Ef-gMV"/>
+                <outlet property="leadLaBC" destination="Gap-6g-d0S" id="qbF-62-7ry"/>
+                <outlet property="leadUpC" destination="bzL-eP-Ccb" id="5AR-Z6-kDn"/>
+                <outlet property="topLineC" destination="tKa-ig-Ptj" id="zyG-jI-96E"/>
+                <outlet property="topNoteC" destination="Lx7-fp-V0m" id="FhU-xl-8uA"/>
+                <outlet property="topTitleC" destination="5qR-gF-eVX" id="GhS-aF-RnI"/>
+                <outlet property="topUp" destination="VSA-B4-Wqm" id="HD7-7I-0Cw"/>
+                <outlet property="trailCLV" destination="44M-9b-vvv" id="b0e-Tu-F9J"/>
+            </connections>
+            <point key="canvasLocation" x="124.6376811594203" y="86.71875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Available Updates" width="33" height="33"/>
+        <image name="Connect" width="36" height="36"/>
+        <image name="Copy" width="36" height="36"/>
+        <image name="Line 1" width="312.5" height="1"/>
+        <image name="Vector Red" width="24" height="22"/>
+        <image name="english_logo" width="29" height="29"/>
+        <image name="japan_logo" width="29" height="29"/>
+    </resources>
+</document>
